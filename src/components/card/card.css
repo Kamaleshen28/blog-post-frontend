@@ -1,0 +1,64 @@
+
+.card-wrapper{
+  width: 300px;
+  height: 470px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image{
+  width: 300px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.card-middle-section{
+  padding: 8px;
+}
+
+.date-time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-weight: 430;
+  font-size: 22px;
+  margin: 10px 0 5px 0;
+}
+
+.card-description{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.claps{
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.heart{
+  width: 32px;
+  height: 32px;
+}
+.card-bottom-section{
+  padding: 8px;
+}
+.claps-heart-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clap-count-wrapper{
+  display: flex;
+  align-items: center;
+}

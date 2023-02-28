@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="navbar"
+  >
+    <div
+      class="nav--section1"
+    >
+      <a>
+        The Artifact
+      </a>
+      <a>
+        Culture & Art blog
+      </a>
+    </div>
+    <div
+      class="nav--section2"
+    >
+      <a>
+        Blog
+      </a>
+      <a>
+        About
+      </a>
+      <a>
+        Contact
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

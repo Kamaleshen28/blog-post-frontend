@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post should render the post correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div>
+      <img
+        class="card--img"
+        src="./abstract.png"
+      />
+    </div>
+    <div>
+      <div
+        class="date"
+      >
+        <a>
+          2nd Januray, 2018
+        </a>
+        <a>
+          2 mins
+        </a>
+      </div>
+      <div>
+        <h3
+          class="title"
+        >
+          The future of abstract art and the culture ...
+        </h3>
+      </div>
+      <div>
+        <a
+          class="desc"
+        >
+          Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+        </a>
+      </div>
+      <div>
+        <hr
+          class="line"
+        />
+      </div>
+      <div
+        class="last--card--section"
+      >
+        <div
+          class="clap-section"
+        >
+          <img
+            alt="clap"
+            class="clap--img"
+            data-testid="clap-btn"
+            src="./clapping.svg"
+          />
+          <a
+            data-testid="clap-count"
+          >
+            10
+          </a>
+        </div>
+        <div
+          class="heart-section"
+        >
+          <img
+            alt="heart"
+            class="heart--img"
+            data-testid="heart-toggle"
+            src="./heart-black.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
